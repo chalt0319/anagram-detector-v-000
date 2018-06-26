@@ -17,7 +17,6 @@ class Anagram
         the_word
       end 
     end 
-    
   end 
     
 end 
