@@ -12,7 +12,7 @@ class Anagram
     array.each do |the_word|
       split_word = the_word.split("").sort
       original_word = @word.split("").sort
-      binding.pry
+      # binding.pry
       # split_word == original_word ? the_word : []
       if split_word == original_word
         the_word
