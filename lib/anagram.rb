@@ -13,7 +13,7 @@ class Anagram
       split_word = the_word.split("").sort
       original_word = @word.split("").sort
       # binding.pry
-      split_word == original_word ? the_word : []
+      split_word == original_word ? the_word
     end 
     
   end 
